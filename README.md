@@ -1,7 +1,7 @@
 # studychat-automatic-labeling
 
 This repository contains the code and data used in the paper:
-"Evaluating LLM-Based Annotation of Cognitively Grounded Learner Intent in Educational Chatbot Dialogues"
+"When Humans and LLMs Disagree: Understanding Human-LLM Disagreement in Learner Intent Annotation for Educational Chatbot Dialogues"
 
 ## How to use
 
