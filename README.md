@@ -9,17 +9,22 @@ This repository contains the code and data used in the paper:
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate # venv\Scripts\Activate.ps1 for Windows
+source venv/bin/activate 
 pip install -r requirements.txt
 ```
 
-#### 1. Setup
+#### 1. API key
+```bash
+export OPENAI_API_KEY="..."
+```
+
+#### 2. Setup
 
 ```bash
 python -m automatic_labeling.build_index
 ```
 
-#### 2. Run automatic annotation
+#### 3. Run automatic annotation
 ```bash
 python -m automatic_labeling.run
 
